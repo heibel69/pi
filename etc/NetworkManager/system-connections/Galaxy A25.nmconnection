@@ -1,0 +1,23 @@
+[connection]
+id=Galaxy A25
+uuid=46937b7b-56a1-4885-b61b-bfb70ff430c7
+type=wifi
+interface-name=wlan0
+
+[wifi]
+mode=infrastructure
+ssid=Galaxy A25
+
+[wifi-security]
+auth-alg=open
+key-mgmt=wpa-psk
+psk=HolaQueAse
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
